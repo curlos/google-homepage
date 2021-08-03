@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.centerContainerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+a {
+    color: #5F6368;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.signInButton {
+    background-color: #4485F7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchBar {
+    padding: 0.7rem;
+    margin: 1.5rem;
+    width: 30rem;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 2.5rem;
+    box-shadow: 1px solid black;
+}
+
+.searchBar:hover {
+    box-shadow: 2px 2px 5px 1px rgb(224, 224, 224);
+}
+
+.searchBar:focus-visible {
+    outline: none;
+}
+
+.searchButton, .luckyButton {
+    color: #5F6368;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #F2F2F2;
+    color: #5F6368;
+}
